@@ -5,11 +5,11 @@ int main() {
     int a, b;
     scanf("%d %d", &a, &b);
 
-    int mul = 1
+    int mul = 1;
 
     for (int i = 1; i <= b; i++) {
         if (i % a == 0) {
-            mul *= i
+            mul *= i;
         }
     }
 
