@@ -6,7 +6,7 @@ int main() {
 
     while (1) {
         scanf("%d", &age);
-        if (age < 30) {
+        if (20 <= age && age < 30) {
             sum += age;
             cnt++;
         } else {
