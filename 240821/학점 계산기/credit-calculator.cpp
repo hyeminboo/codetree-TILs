@@ -6,16 +6,15 @@ int main() {
     int n;
     cin >> n;
 
-    int sumNum = 0, cnt = 0;
-
     double arr[5];
+    double sumNum;
+
     for (int i = 0; i < n; i++) {
         cin >> arr[i];
         sumNum += arr[i];
-        cnt += 1;
     }
 
-    double avg = sumNum / double(cnt);
+    double avg = sumNum / n;
 
     cout << fixed;
     cout.precision(1);
