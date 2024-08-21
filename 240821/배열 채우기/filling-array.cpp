@@ -14,8 +14,8 @@ int main() {
         }
 
         if (i == 9) {
-        for (i; i >= 0; i--) {
-            cout << arr[i] << " ";
+        for (int j = i; j >= 0; j--) {
+            cout << arr[j] << " ";
         }
     }
     }
