@@ -19,7 +19,7 @@ int main() {
         }
     }
 
-    for (int i = 99; i > (99-cnt); i--) {
+    for (int i = (100-cnt); i < 100; i++) {
         cout << arr[i] << " ";
     }
     return 0;
